@@ -42,19 +42,19 @@
 
     </LinearLayout>
 
-    <!--<com.makeramen.roundedimageview.RoundedImageView-->
-        <!--android:id="@+id/user_photo"-->
-        <!--android:layout_width="64dp"-->
-        <!--android:layout_height="64dp"-->
-        <!--android:layout_gravity="right|top"-->
-        <!--android:layout_marginLeft="16dp"-->
-        <!--android:layout_marginRight="20dp"-->
-        <!--android:layout_marginTop="50dp"-->
-        <!--android:scaleType="centerCrop"-->
-        <!--android:src="@drawable/user_photo"-->
-        <!--app:riv_border_color="#d2d2d2"-->
-        <!--app:riv_border_width="2dp"-->
-        <!--app:riv_oval="true" />-->
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/user_photo"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="right|top"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_photo"
+        app:riv_border_color="#d2d2d2"
+        app:riv_border_width="2dp"
+        app:riv_oval="true" />
 
 
 </FrameLayout>

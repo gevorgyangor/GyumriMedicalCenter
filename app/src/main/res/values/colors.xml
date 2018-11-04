@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="colorPrimary">#56f544</color>
+	<color name="colorPrimary">#48d29e</color>
 	<color name="colorPrimaryDark">#1b8b8b</color>
-	<color name="colorAccent">#eb54f718</color>
+	<color name="colorAccent">#48d29e</color>
 	<color name="colorWhite">#ffff</color>
 	<color name="tabsScrollColor">#dfce</color>
 
@@ -13,7 +13,7 @@
 	<color name="field_background">#8cbaa3</color>
 	<color name="field_stroke">#aceacd</color>
 	<color name="field_stroked">#1b8b8b</color>
-	<color name="color_cian">#5df42b</color>
+	<color name="color_cian">#48d29e</color>
 
 
 

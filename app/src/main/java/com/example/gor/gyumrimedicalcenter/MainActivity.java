@@ -4,8 +4,11 @@ import android.annotation.TargetApi;
 import android.app.Dialog;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
@@ -51,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     private FragmentTransaction mFragmentTransaction;
     private DrawerLayout drawerLayout;
     private ViewPager viewPager;
-//    private NavigationView navigationView;
+    private NavigationView navigationView;
     private ViewPagerAdapter adapter;
 
     @Override
@@ -63,47 +66,47 @@ public class MainActivity extends AppCompatActivity {
         toolBarData();
         initDrawerLayout();
         initTabs();
-//        initNavigationView();
+        initNavigationView();
 
     }
-//
-//    private void initNavigationView() {
-//        navigationView = (NavigationView) findViewById(R.id.navigation_view);
-//        navigationView.setItemIconTintList(null);
-//        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-//            @Override
-//            public boolean onNavigationItemSelected(MenuItem item) {
-//                switch (item.getItemId()) {
-//                    case R.id.login_drawer:
-//                        intent = new Intent(MainActivity.this, LoginActivity.class);
-//                        startActivity(intent);
-//                        drawerLayout.closeDrawer(GravityCompat.START);
-//                        item.setChecked(false);
-//                        return true;
-//                    case R.id.favorit_doctors:
-////                        Uri gmmIntentUri = Uri.parse("google.streetview:cbll=46.414382,10.013988");
-////
-////    // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
-////                        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-////    // Make the Intent explicit by setting the Google Maps package
-////                        mapIntent.setPackage("com.google.android.apps.maps");
-////
-////    // Attempt to start an activity that can handle the Intent
-////                        startActivity(mapIntent);
-////                        item.setChecked(false);
-//                        return true;
-//                    case R.id.about_us_drawer:
-//                        intent = new Intent(MainActivity.this, AboutAs.class);
-//                        startActivity(intent);
-//                        drawerLayout.closeDrawer(GravityCompat.START);
-//                        item.setChecked(false);
-//                        return true;
-//
-//                }
-//                return false;
-//            }
-//        });
-//    }
+
+    private void initNavigationView() {
+        navigationView = (NavigationView) findViewById(R.id.navigation_view);
+        navigationView.setItemIconTintList(null);
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.login_drawer:
+                        intent = new Intent(MainActivity.this, LoginActivity.class);
+                        startActivity(intent);
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        item.setChecked(false);
+                        return true;
+                    case R.id.favorit_doctors:
+                        Uri gmmIntentUri = Uri.parse("google.streetview:cbll=46.414382,10.013988");
+
+                        // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
+                        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                        // Make the Intent explicit by setting the Google Maps package
+//                        mapIntent.setPackage("com.google.android.apps.maps");
+
+                        // Attempt to start an activity that can handle the Intent
+                        startActivity(mapIntent);
+                        item.setChecked(false);
+                        return true;
+                    case R.id.about_us_drawer:
+                        intent = new Intent(MainActivity.this, AboutAs.class);
+                        startActivity(intent);
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        item.setChecked(false);
+                        return true;
+
+                }
+                return false;
+            }
+        });
+    }
 
 
     private void initTabs() {
@@ -111,8 +114,8 @@ public class MainActivity extends AppCompatActivity {
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(adapter);
 
-//        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
-//        tabLayout.setupWithViewPager(viewPager);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
+        tabLayout.setupWithViewPager(viewPager);
     }
 
     private void initDrawerLayout() {
