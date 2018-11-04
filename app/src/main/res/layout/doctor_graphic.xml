@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <!--<Spinner-->
+        <!--android:id="@+id/spinner"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--</Spinner>-->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="220dp"
+        android:hint="@string/choose_a_date"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <ImageButton
+        android:id="@+id/calendar_button"
+        android:onClick="calendarButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_toRightOf="@+id/editText"
+        android:background="@drawable/calend"
+
+       />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/radio_group"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/calendar_button"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nine"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:id="@+id/nine" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ten"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:id="@+id/ten" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twelve"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:id="@+id/twelve" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:id="@+id/one" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tree"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:id="@+id/tree" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:id="@+id/four" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:id="@+id/six" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:id="@+id/confirm_button"
+            android:layout_gravity="right"
+            style="@style/button_field"
+            android:textStyle="bold|italic"
+            android:textSize="@dimen/abc_action_bar_content_inset_material" />
+
+    </RadioGroup>
+</RelativeLayout>
+

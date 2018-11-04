@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--&gt;-->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".dentiststype.TypesOfDantists">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_type_dentists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_cian"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_type_dentists">
+
+
+    <Button
+        android:id="@+id/preventive_services_button"
+        style="@style/type_of_dentist_button"
+        android:layout_marginTop="10dp"
+        android:onClick="typeOfdenyistClick"
+        android:text="@string/preventive_services"
+        />
+
+        <Button
+        android:id="@+id/restorative_services_button"
+        style="@style/type_of_dentist_button"
+        android:onClick="typeOfdenyistClick"
+        android:layout_below="@+id/preventive_services_button"
+        android:text="@string/restorative_services"/>
+
+        <Button
+        android:id="@+id/cosmetic_procedures_button"
+        style="@style/type_of_dentist_button"
+        android:onClick="typeOfdenyistClick"
+        android:layout_below="@+id/restorative_services_button"
+        android:text="@string/cosmetic_procedures"    />
+
+        <Button
+        android:id="@+id/overall_health_concerns_button"
+        style="@style/type_of_dentist_button"
+        android:onClick="typeOfdenyistClick"
+        android:layout_below="@+id/cosmetic_procedures_button"
+        android:text="@string/overall_health_concerns"    />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/esime"
+            android:layout_below="@+id/overall_health_concerns_button"/>
+
+
+
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_type_dentists">
+    </FrameLayout>
+</RelativeLayout>
+<!--</ScrollView>-->

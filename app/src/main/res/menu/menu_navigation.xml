@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        
+        <item
+            android:id="@+id/favorit_doctors"
+            android:checked="false"
+            android:icon="@drawable/heart"
+            android:title="@string/favorit_doctors" />
+        <item
+            android:id="@+id/login_drawer"
+            android:checked="false"
+            android:icon="@drawable/login"
+            android:title="@string/login"/>
+
+        <item
+            android:id="@+id/about_us_drawer"
+            android:checked="false"
+            android:icon="@drawable/ff"
+            android:title="@string/about_us" />
+
+    </group>
+    <item android:title="">
+
+    </item>
+
+</menu>
+

@@ -1,3 +1,152 @@
 <resources>
-    <string name="app_name">Gyumri Medical Center</string>
+    <string name="app_name">GyumriMedicalCenter</string>
+    <string name="selecteddata" />
+    <string name="register" />
+    <string name="login">login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="about">about</string>
+    <string name="reset">reset</string>
+    <string name="add">add</string>
+    <string name="action_settings" />
+    <string name="search">serch</string>
+    <string name="view_navigation_close">Close</string>
+    <string name="view_navigation_open">Open</string>
+    <string name="fivefriend">FiveFriend</string>
+    <string name="about_us">about us</string>
+    <string name="mobile">Mobile</string>
+    <string name="gmail">Gmail</string>
+    <string name="save">Save</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="imagedesc">imagedesc</string>
+    <string name="reserve">reserve</string>
+    <string name="choose_a_date">choose a date</string>
+    <string name="box">box</string>
+    <string name="calendar">calendar</string>
+    <string name="nine">09 : 00 – 10 : 30</string>
+    <string name="ten">10 : 45 – 12 : 00</string>
+    <string name="twelve">12 : 15 – 13 : 30</string>
+    <string name="one">13 : 45 – 15 : 00</string>
+    <string name="tree">15 : 15 – 16 : 30</string>
+    <string name="four">16 : 45 – 18 : 00</string>
+    <string name="six">18 : 15 – 19 : 45</string>
+    <string name="about_doctor">"On the other hand, we denounce with righteous indignation and
+        dislike men who are so beguiled and demoralized by the charms of pleasure of the momentOn the other hand, we denounce with righteous indignation and
+        dislike men who are so beguiled and demoralized by the charms of pleasure of the momentOn the other hand, we denounce with righteous indignation and
+        dislike men who are so beguiled and demoralized by the charms of pleasure of the moment"On the other hand, we denounce with righteous indignation and
+        dislike men who are so beguiled and demoralized by the charms of pleasure of the momentOn the other hand, we denounce with righteous indignation and
+        dislike men who are so beguiled and demoralized by the charms of pleasure of the momentOn the other hand, we denounce with righteous indignation and
+        dislike men who are so beguiled and demoralized by the charms of pleasure of the moment"
+    </string>
+    <string name="confirm">confirm</string>
+    <string name="favorit_doctors">favorit_doctors</string>
+    <string name="preventive_services">Preventive services</string>
+    <string name="restorative_services">Restorative Services</string>
+    <string name="cosmetic_procedures">Cosmetic Procedures</string>
+    <string name="overall_health_concerns">Overall Health Concerns</string>
+
+
+    <array name="profile_logs">
+        <item>@drawable/bridges_icon</item>
+        <item>@drawable/icon_crown</item>
+        <item>@drawable/teeth_icon</item>
+        <item>@drawable/time_icon</item>
+        <item>@drawable/banner_dental</item>
+        <item>@drawable/stomatology_ico</item>
+        <item>@drawable/stomatology_icono</item>
+        <item>@drawable/bridges_icon</item>
+        <item>@drawable/icon_crown</item>
+        <item>@drawable/stomatology_ico</item>
+
+    </array>
+
+
+    <string-array name="stomatology_name">
+        <item>stomatology1</item>
+        <item>stomatology2</item>
+        <item>stomatology3</item>
+        <item>stomatology4</item>
+        <item>stomatology5</item>
+        <item>stomatology6</item>
+        <item>stomatology7</item>
+        <item>stomatology8</item>
+        <item>stomatology9</item>
+        <item>stomatology10</item>
+    </string-array>
+    <string-array name="doctors_name">
+        <item>Name Surname1</item>
+        <item>Name Surname2</item>
+        <item>Name Surname3</item>
+        <item>Name Surname4</item>
+        <item>Name Surname5</item>
+        <item>Name Surname6</item>
+        <item>Name Surname7</item>
+        <item>Name Surname8</item>
+        <item>Name Surname9</item>
+        <item>Name Surname10</item>
+
+    </string-array>
+    <array name="doctors_image">
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+        <item>@drawable/user_photo</item>
+
+
+    </array>
+    <string-array name="type_of_dentes">
+        <item>type one</item>
+        <item>type one</item>
+        <item>type one</item>
+        <item>type one</item>
+        <item>type one</item>
+        <item>type one</item>
+    </string-array>
+    <array name="type_logs">
+        <item>@drawable/stomatology_ico</item>
+        <item>@drawable/stomatology_ico</item>
+        <item>@drawable/stomatology_ico</item>
+        <item>@drawable/stomatology_ico</item>
+        <item>@drawable/stomatology_ico</item>
+    </array>
+
+    <string-array name="stomatology_name_and_doctor_name">
+        <item>Name Surname1</item>
+        <item>Name Surname2</item>
+        <item>Name Surname3</item>
+        <item>Name Surname4</item>
+        <item>Name Surname5</item>
+        <item>Name Surname6</item>
+        <item>Name Surname7</item>
+        <item>Name Surname8</item>
+        <item>Name Surname9</item>
+        <item>Name Surname10</item>
+        <item>stomatology1</item>
+        <item>stomatology2</item>
+        <item>stomatology3</item>
+        <item>stomatology4</item>
+        <item>stomatology5</item>
+        <item>stomatology6</item>
+        <item>stomatology7</item>
+        <item>stomatology8</item>
+        <item>stomatology9</item>
+        <item>stomatology10</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+
 </resources>
