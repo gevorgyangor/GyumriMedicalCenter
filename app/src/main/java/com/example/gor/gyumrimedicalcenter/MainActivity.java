@@ -4,7 +4,6 @@ import android.annotation.TargetApi;
 import android.app.Dialog;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -84,16 +83,16 @@ public class MainActivity extends AppCompatActivity {
                         item.setChecked(false);
                         return true;
                     case R.id.favorit_doctors:
-                        Uri gmmIntentUri = Uri.parse("google.streetview:cbll=46.414382,10.013988");
-
-                        // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
-                        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                        // Make the Intent explicit by setting the Google Maps package
+//                        Uri gmmIntentUri = Uri.parse("google.streetview:cbll=46.414382,10.013988");
+//
+//    // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
+//                        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+//    // Make the Intent explicit by setting the Google Maps package
 //                        mapIntent.setPackage("com.google.android.apps.maps");
-
-                        // Attempt to start an activity that can handle the Intent
-                        startActivity(mapIntent);
-                        item.setChecked(false);
+//
+//    // Attempt to start an activity that can handle the Intent
+//                        startActivity(mapIntent);
+//                        item.setChecked(false);
                         return true;
                     case R.id.about_us_drawer:
                         intent = new Intent(MainActivity.this, AboutAs.class);
@@ -166,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void toolBarData() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Smile Dent");
+        toolbar.setTitle("Gyumri Medical Center");
         toolbar.setTitleTextColor(getResources().getColor(R.color.white));
         setSupportActionBar(toolbar);
     }
