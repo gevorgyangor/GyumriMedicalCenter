@@ -3,6 +3,8 @@ package com.example.gor.gyumrimedicalcenter.packagelist;
 
 import android.widget.BaseAdapter;
 
+import com.example.gor.gyumrimedicalcenter.packagelist.RowPachageItem;
+
 public class PachageListAdapter extends BaseAdapter {
     Context context;
     List<RowPachageItem> rowItem;

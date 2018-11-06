@@ -4,8 +4,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.gor.gyumrimedicalcenter.forum.ForumFragment;
+
 import com.example.gor.gyumrimedicalcenter.stomatologylist.StomatologyListFragment;
+import com.example.gor.gyumrimedicalcenter.packagelist.PachageListFragment;
 
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter {

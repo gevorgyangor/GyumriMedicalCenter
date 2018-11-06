@@ -11,8 +11,8 @@ import android.widget.AdapterView;
 
 import com.example.gor.gyumrimedicalcenter.R;
 import com.example.gor.gyumrimedicalcenter.dentiststype.TypesOfDantists;
-import com.example.gor.gyumrimedicalcenter.stomatologylist.RowItem;
-import com.example.gor.gyumrimedicalcenter.stomatologylist.StomatologyListAdapter;
+import com.example.gor.gyumrimedicalcenter.packagelist.RowPachageItem;
+import com.example.gor.gyumrimedicalcenter.packagelist.PachageListAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
