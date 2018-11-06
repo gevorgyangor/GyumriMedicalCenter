@@ -48,8 +48,8 @@
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
         <LinearLayout
@@ -58,8 +58,8 @@
             android:orientation="vertical"
             android:paddingTop="20dp">
 
-           <!--<include layout="@layout/about_doctor"/>           -->
-           <include layout="@layout/doctor_graphic"/>
+            <!--<include layout="@layout/about_doctor"/>           -->
+            <include layout="@layout/doctor_graphic"/>
 
         </LinearLayout>
 

@@ -15,7 +15,7 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     public ViewPagerAdapter(FragmentManager fm) {
         super(fm);
         titles = new CharSequence[]{
-                "stomatolagy","forum"
+                "DEPARTMENT","package"
         };
 
 
@@ -30,8 +30,8 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
                 return stomatologyListFragment;
 
             case 1:
-                ForumFragment forumFragment = new ForumFragment();
-                return forumFragment;
+                PachageListFragment pachageListFragment = new PachageListFragment();
+                return pachageListFragment;
         }
         return null;
     }

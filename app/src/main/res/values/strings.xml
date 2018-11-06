@@ -62,10 +62,33 @@
         <item>@drawable/icon_crown</item>
         <item>@drawable/stomatology_ico</item>
 
+    </array> <array name="pchg_profile_logs">
+        <item>@drawable/bridges_icon</item>
+        <item>@drawable/icon_crown</item>
+        <item>@drawable/teeth_icon</item>
+        <item>@drawable/time_icon</item>
+        <item>@drawable/banner_dental</item>
+        <item>@drawable/stomatology_ico</item>
+        <item>@drawable/stomatology_icono</item>
+        <item>@drawable/bridges_icon</item>
+        <item>@drawable/icon_crown</item>
+        <item>@drawable/stomatology_ico</item>
+
     </array>
 
 
     <string-array name="stomatology_name">
+        <item>stomatology1</item>
+        <item>stomatology2</item>
+        <item>stomatology3</item>
+        <item>stomatology4</item>
+        <item>stomatology5</item>
+        <item>stomatology6</item>
+        <item>stomatology7</item>
+        <item>stomatology8</item>
+        <item>stomatology9</item>
+        <item>stomatology10</item>
+    </string-array><string-array name="pachage_name">
         <item>stomatology1</item>
         <item>stomatology2</item>
         <item>stomatology3</item>
