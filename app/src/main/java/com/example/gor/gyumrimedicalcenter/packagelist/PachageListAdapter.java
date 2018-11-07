@@ -1,8 +1,19 @@
 package com.example.gor.gyumrimedicalcenter.packagelist;
 
 
+import android.app.Activity;
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+
+import com.example.gor.gyumrimedicalcenter.R;
+
+import java.util.List;
 import com.example.gor.gyumrimedicalcenter.packagelist.RowPachageItem;
 
 public class PachageListAdapter extends BaseAdapter {

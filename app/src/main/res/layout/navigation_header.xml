@@ -8,8 +8,8 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/navigation_header_background"
+        android:layout_height="match_parent"
+        android:background="@drawable/nav"
         android:scaleType="centerCrop" />
 
     <LinearLayout
@@ -18,9 +18,9 @@
         android:layout_gravity="left|bottom"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp">
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -47,8 +47,8 @@
         android:layout_height="64dp"
         android:layout_gravity="right|top"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
         android:scaleType="centerCrop"
         android:src="@drawable/user_photo"
         app:riv_border_color="#d2d2d2"
