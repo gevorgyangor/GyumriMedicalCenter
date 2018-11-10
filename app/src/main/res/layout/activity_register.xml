@@ -19,39 +19,40 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="426dp"
+        android:layout_below="@+id/toolbar_register"
         android:layout_alignParentBottom="true"
-        android:orientation="vertical"
-        android:layout_below="@+id/toolbar_register">
+        android:layout_marginTop="1dp"
+        android:orientation="vertical">
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="313dp"
             android:layout_height="wrap_content"
             android:hint="@string/login" />
 
         <EditText
 
-            android:layout_width="match_parent"
+            android:layout_width="313dp"
             android:layout_height="wrap_content"
             android:hint="@string/password"
             android:inputType="textPassword" />
 
         <EditText
 
-            android:layout_width="match_parent"
+            android:layout_width="313dp"
             android:layout_height="wrap_content"
             android:hint="@string/confirm_password"
             android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/name_field"
-            android:layout_width="match_parent"
+            android:layout_width="313dp"
             android:layout_height="wrap_content"
             android:hint="@string/name" />
 
         <EditText
             android:id="@+id/surname_field"
-            android:layout_width="match_parent"
+            android:layout_width="313dp"
             android:layout_height="wrap_content"
             android:hint="@string/surname" />
 
@@ -78,24 +79,24 @@
 
         <EditText
 
-            android:layout_width="match_parent"
+            android:layout_width="312dp"
             android:layout_height="wrap_content"
             android:hint="@string/mobile" />
 
         <EditText
 
-            android:layout_width="match_parent"
+            android:layout_width="312dp"
             android:layout_height="wrap_content"
             android:hint="@string/gmail" />
 
         <Button
 
+            style="@style/button_field"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            style="@style/button_field"
-            android:onClick="onRegisterButtonClick1"
             android:inputType="textEmailAddress"
+            android:onClick="onRegisterButtonClick1"
             android:text="@string/save" />
 
     </LinearLayout>

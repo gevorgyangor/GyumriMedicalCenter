@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         initDrawerLayout();
         initTabs();
         initNavigationView();
+        
 
     }
 
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                         item.setChecked(false);
                         return true;
 
-                }
+                }  
                 return false;
             }
         });
